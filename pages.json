@@ -27,6 +27,22 @@
             
         }
     ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+			{
+                    "path" : "goods/goods",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "hahah ",
@@ -54,7 +70,7 @@
 				"iconPath": "static/nav2.png",
 				"selectedIconPath": "static/nav2_ac.png",
 				"text": "购物车"
-			},
-		],
+			}
+		]
 	}
 }
